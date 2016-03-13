@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  *
  * @package Maupassant
@@ -85,7 +86,8 @@ a:focus {
   padding-bottom: 20px;
   word-wrap: break-word; }
   #sidebar .widget {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    text-align: center; }
     #sidebar .widget .widget-title {
       color: #6E7173;
       line-height: 2.7;
@@ -1166,16 +1168,13 @@ figure.highlight,
 .toc-article {
   border: 1px solid #bbb;
   border-radius: 7px;
-  margin: 1.1em 0 0 2em;
-  padding: 0.7em 0.7em 0 0.7em;
-  max-width: 40%; }
+  padding: 0.7em 0.7em 0 0.7em; }
 
 .toc-title {
   font-size: 120%; }
 
 #toc {
-  line-height: 1em;
-  float: right; }
+  line-height: 1em; }
   #toc .toc {
     padding: 0;
     margin: 0.5em;
@@ -1305,3 +1304,13 @@ em.search-keyword {
   font-weight: bold;
   font-style: normal;
   color: #01579f; }
+
+.center {
+  text-align: center; }
+
+span[class$=list-count] {
+  font-size: 1.5em;
+  color: #CC8308; }
+
+span[class$=list-count]::before {
+  content: ' ⚇ '; }
