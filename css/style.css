@@ -388,7 +388,7 @@ pre {
 @media print, screen and (min-width: 48em) {
   #rocket {
     position: fixed;
-    right: 50px;
+    right: 80px;
     bottom: 50px;
     display: block;
     visibility: hidden;
@@ -1185,6 +1185,10 @@ figure.highlight,
     margin-left: 1em;
     padding-left: 0; }
 
+.fixed-toc {
+  position: fixed;
+  top: 80px; }
+
 /* table*/
 table {
   margin: auto auto 15px;
@@ -1314,3 +1318,10 @@ span[class$=list-count] {
 
 span[class$=list-count]::before {
   content: ' ⚇ '; }
+
+.myself {
+  font-size: 24px;
+  word-spacing: 10px; }
+
+.myself::after {
+  content: ' '; }
