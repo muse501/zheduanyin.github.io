@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.iloved.one/"/>
-  <updated>2016-03-26T21:04:09.000Z</updated>
+  <updated>2016-03-26T21:03:17.000Z</updated>
   <id>http://blog.iloved.one/</id>
   
   <author>
@@ -14,26 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>博客样式初版</title>
-    <link href="http://blog.iloved.one/2016/03/27/%E5%8D%9A%E5%AE%A2%E6%A0%B7%E5%BC%8F%E5%88%9D%E7%89%88/"/>
-    <id>http://blog.iloved.one/2016/03/27/博客样式初版/</id>
-    <published>2016-03-26T21:00:40.000Z</published>
-    <updated>2016-03-26T21:04:09.000Z</updated>
-    
-    <content type="html"></content>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="Project" scheme="http://blog.iloved.one/tags/Project/"/>
-    
-      <category term="Front" scheme="http://blog.iloved.one/tags/Front/"/>
-    
-  </entry>
   
   <entry>
     <title>See You Again | Ukulele TAB谱</title>
