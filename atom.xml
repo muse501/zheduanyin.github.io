@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Loved One</title>
-  <subtitle>Girl | Thought | Python | Ukulele | Word | Place</subtitle>
+  <title>Loved One 爱过</title>
+  <subtitle>你可以看到桌上散落着一些主人的生活片段和思考过程，希望他们对你有所启发。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.iloved.one/"/>
@@ -9,7 +9,7 @@
   <id>http://blog.iloved.one/</id>
   
   <author>
-    <name>Zheduan Yin</name>
+    <name>zheduanyin</name>
     
   </author>
   
