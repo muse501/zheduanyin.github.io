@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.iloved.one/2016/04/07/Django%20%E5%A4%84%E7%90%86%E6%B6%89%E5%8F%8A%20ForeignKey%20%E7%9A%84%20Ajax%20%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2016-04-07T17:42:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.iloved.one/about/index.html</loc>
     
     <lastmod>2016-04-07T17:16:31.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://blog.iloved.one/2016/03/14/%E8%B5%B0%E5%87%BA%E5%80%BE%E6%96%9C%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
     
     <lastmod>2016-04-07T17:03:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.iloved.one/2016/04/07/Django%20%E5%A4%84%E7%90%86%20Ajax%20%E6%8F%90%E4%BA%A4%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%8C%E6%B6%89%E5%8F%8A%20ModelForm%20%E5%92%8C%20ForeignKey/</loc>
-    
-    <lastmod>2016-04-07T17:00:18.000Z</lastmod>
     
   </url>
   
