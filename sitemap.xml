@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.iloved.one/about/index.html</loc>
+    
+    <lastmod>2016-05-15T13:19:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.iloved.one/2010/10/11/%E3%80%8A1988%EF%BC%8C%E6%88%91%E6%83%B3%E5%92%8C%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E8%B0%88%E8%B0%88%E3%80%8B%E6%91%98%E9%80%89/</loc>
     
-    <lastmod>2016-05-15T13:17:44.000Z</lastmod>
+    <lastmod>2016-05-15T13:18:22.000Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://blog.iloved.one/2016/04/21/Ukulele-%E9%98%B6%E6%AE%B5%E4%B8%80/</loc>
     
     <lastmod>2016-04-21T01:43:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.iloved.one/about/index.html</loc>
-    
-    <lastmod>2016-04-20T16:29:31.000Z</lastmod>
     
   </url>
   
