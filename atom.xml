@@ -38,13 +38,13 @@
   </entry>
   
   <entry>
-    <title>前后端分离的 Web 架构</title>
-    <link href="http://blog.iloved.one/2016/05/12/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E7%9A%84-Web-%E6%9E%B6%E6%9E%84/"/>
-    <id>http://blog.iloved.one/2016/05/12/前后端分离的-Web-架构/</id>
+    <title>SOA 前后端分离的 Web 架构</title>
+    <link href="http://blog.iloved.one/2016/05/12/SOA-%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E7%9A%84-Web-%E6%9E%B6%E6%9E%84/"/>
+    <id>http://blog.iloved.one/2016/05/12/SOA-前后端分离的-Web-架构/</id>
     <published>2016-05-12T13:10:50.000Z</published>
-    <updated>2016-05-15T13:15:17.000Z</updated>
+    <updated>2016-05-17T01:42:33.000Z</updated>
     
-    <content type="html">&lt;p&gt;新项目用了 Web + BFF + Service 这种前后端分的比较开的架构，用起来蛮舒服，其中 Web 层负责提供 HTML / JS；BFF 层则是做权限校验、缓存、逻辑整合、内容聚合拆分、向 Service 层请求数据；最底层的 Service 层提供数据库的数据操作，过滤等 API，这层位于内网，只有 BFF 层可以访问。三层都通过 HTTP 协议来提供服务。&lt;/p&gt;&lt;p&gt;这个架构的好处很明显&lt;/p&gt;&lt;ul&gt;&lt;li&gt;前后端分离，修改十分方便&lt;/li&gt;&lt;li&gt;系统拓展性强，可以通过修改 BFF 的方式来控制暴露出去的 API&lt;/li&gt;&lt;li&gt;每个 Service 都只负责自己功能下的小型数据库，可以灵活使用不同数据库种类来使系统发挥更好的性能&lt;/li&gt;&lt;li&gt;系统权责明确，每个部件只需要维护自己的逻辑&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;可提高的地方在&lt;/p&gt;&lt;ul&gt;&lt;li&gt;底层难以对应到上层业务，Debug 复杂&lt;/li&gt;&lt;li&gt;HTTP 请求数量显著增多，使得系统性能降低&lt;/li&gt;&lt;li&gt;开发、测试难度提高，LOG 增多&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;新项目用了 Web + BFF + Service 这种前后端分的比较开的架构，用起来蛮舒服，其中 Web 层负责提供 HTML / JS；BFF 层则是做权限校验、缓存、逻辑整合、内容聚合拆分、向 Service 层请求数据；最底层的 Service 层提供数据库的数据操作，过滤等 API，这层位于内网，只有 BFF 层可以访问。三层都通过 HTTP 协议来提供服务。&lt;/p&gt;&lt;p&gt;这个架构的好处很明显&lt;/p&gt;&lt;ul&gt;&lt;li&gt;前后端分离，修改十分方便&lt;/li&gt;&lt;li&gt;系统拓展性强，可以通过修改 BFF 的方式来控制暴露出去的 API&lt;/li&gt;&lt;li&gt;每个 Service 都只负责自己功能下的小型数据库，可以灵活使用不同数据库种类来使系统发挥更好的性能&lt;/li&gt;&lt;li&gt;系统权责明确，每个部件只需要维护自己的逻辑&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;可提高的地方在&lt;/p&gt;&lt;ul&gt;&lt;li&gt;底层难以对应到上层业务，Debug 复杂&lt;/li&gt;&lt;li&gt;HTTP 请求数量显著增多，使得系统性能降低&lt;/li&gt;&lt;li&gt;开发、测试难度提高，LOG 增多&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;这种前后端分离的实现方法，在业界也叫做 SOA，即面向服务架构，和面向方法，面向对象，和面向切面相比，它的关注点在更为宏观的层面；对于传统的软件架构来讲，它更符合 KISSY 的理念，更易于拓展，同时也更为开放。&lt;/p&gt;&lt;p&gt;wiki 看了一下编程范式，里面很多词汇都是经常读到却不知道它的具体意思，这几天读一下，读完来会来这里介绍一下这些范式。&lt;/p&gt;</content>
     
     <summary type="html">
     
